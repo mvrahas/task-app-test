@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "MyAwesomeRealmAppJS",
+    "slug": "MyAwesomeRealmAppJS",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fb1693aa-7359-483f-927b-ffa616ba6b57"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.telemarkus.MyAwesomeRealmAppJS"
+    }
+  }
+}
