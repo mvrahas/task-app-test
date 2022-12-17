@@ -20,12 +20,11 @@ const TaskDisplay = ({_id})=>{
     return(
         <>
             <Button title={'Add Subtask'} onPress={()=>handleAddSubtask('This is just a subtask')}/>
-            {task ? task.subtasks.map((subtask,i)=><Text key={i}>{subtask.description}</Text>) : null}
         </>
     )
 }
 
-//NOTE - Rendering the subtasks as a text element causes a different behavior
+//NOTE: Adding the below line causes the code to rerender
 //{task ? task.subtasks.map((subtask,i)=><Text key={i}>{subtask.description}</Text>) : null}
 
 export default TaskDisplay
